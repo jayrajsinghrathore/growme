@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f4f4;
+    color: #080808;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 20px;
+    color: #050505;
+  }
+  
+  .App {
+    margin: 20px auto;
+    width: 80%;
+  }
+  .custom-overlay {
+    position: absolute;
+    top: -200px; 
+    left: 0;
+    z-index: 1000;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
